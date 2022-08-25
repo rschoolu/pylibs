@@ -1,0 +1,13 @@
+Noun: <noun>
+Noun (plural): <nouns>
+Verb: <verb>
+Verb (current tense): <verbing>
+Verb (past tense): <verbed>
+Adjective: <adj>
+Adverb: <adv>
+Name: <name>
+Any other one will just spit out what it found in it.
+EXAMPLE:
+	FILE: <notinsyntax>
+	PYLIB:
+		Enter a notinsyntax: 
