@@ -11,6 +11,6 @@ HOW TO USE RANDOMLIB:
 		1.1) Please make sure you have python installed.
 	2) Navigate to the directory of randomlib.py.
 	3) Use python to open randomlib.py.
-		3.1) Use --(madlib here) --(times to generate)
+		3.1) Use --(madlib directory here) --(times to generate)
 		3.2) Make sure you have the right syntax! Open randomlibSyntax.txt
 	4) Have fun laughing at these randomly generated stories!
