@@ -1,4 +1,4 @@
-import random, sys, rlResources
+import random, sys, json
 
 with open(sys.argv[1].strip("--"), "r") as tegst:
     text = tegst.read()
@@ -28,6 +28,16 @@ for i in range(len(text)):
     except:
         pass
 print(loggedWords)
+with open("./rlResources.json", "r") as sdsd:
+    yyyyye = sdsd.read()
+yyyyy = json.loads(yyyyye)
+class rlResource():
+    def __init__(self):
+        self.nouns = yyyyy["nouns"]
+        self.verbs = yyyyy["verbs"]
+        self.adjectives = yyyyy["adjectives"]
+        self.adverbs = yyyyy["adverbs"]
+rlResources = rlResource()
 for i in range(times):
     newtext = text
     for i in loggedWords:

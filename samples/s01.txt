@@ -1,0 +1,4 @@
+A Noun: <noun>
+A Verb: <verb>
+An Adjective: <adj>
+An Adverb: <adv>
